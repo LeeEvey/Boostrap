@@ -1,0 +1,13 @@
+* {
+    border: 1px solid red;
+}
+
+.navbar-brand {
+    font-family: quicksand;
+    font-size: 16px;
+}
+
+.navbar-nav {
+    margin-left: 500px;
+
+}
