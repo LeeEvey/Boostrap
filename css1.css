@@ -2,12 +2,49 @@
     border: 1px solid red;
 }
 
-.navbar-brand {
+.navbar-nav {
     font-family: quicksand;
-    font-size: 16px;
+    font-size: 13px;
+
+
 }
 
-.navbar-nav {
-    margin-left: 500px;
+/* video background */
+.video-background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    z-index: 2;
+}
 
+.video-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+
+
+
+/* untulity */
+.tombol {
+    border-radius: 30px;
+    width: 120px;
+}
+
+/* dekstop */
+@media (min-width: 992px) {
+    .nav-link {
+        margin-right: 30px;
+
+    }
+
+    .nav-link:hover {
+        border-bottom: 3px solid rgb(0, 95, 236);
+        padding-bottom: 5px;
+        padding-bottom: -8px;
+    }
 }
